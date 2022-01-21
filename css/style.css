@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Rubik:wght@300;400;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+table tr th {
+    font-size: 1.5rem;
+    text-align: left;
+}
+td, th {
+    padding: .9em 1em;
+    font-size: 14px;
+}
+tr.table_row {
+    background: white;
+}
+tr.table_row td {
+    border-bottom: 25px solid  #f3f3f3;
+}
+.table_head1 {
+    background-color: rgb(9 103 120);
+    color: #ffffff;
+}
+tbody:before {
+    line-height:.0rem;
+    content:"_";
+    color:white;
+    display:block;
+}
+.table_img{
+    height: 80px;
+    width: 69px;
+    margin-right: 2rem;
+}
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+
+
+
+
+nav {
+    background-image: linear-gradient(to right, #2E7705, #6EA505) ;   
+}
+nav ul li a {
+    color:#fff
+}
+.navbar-toggler-icon {
+    background-image: url(../img/white-menu-icon-12.png);
+   font-size: 30px;
+ }
+  
+.fa-equals {
+font-size: larger;
+}
+.border{
+    border:1px solid ;
+    width:160px;
+    height: 30px !important;
+    margin-left: 50px ;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+.border a{
+    text-align: center;
+    margin-top: -6px !important;
+}
+.btn1 {
+    background-color: #357C05;
+    color: #fff;
+    border: 2px solid #357C05;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: #357C05;
+    border: 2px solid #357C05;
+    transition: .3s;
+}
+.btn2 {
+    border:2px solid #357C05;
+    color: #357C05;
+    background-color: #fff;
+}
+.btn2:hover{
+    border:2px solid #357C05;
+    color: #fff;
+    background-color: #357C05;
+}
+.mail {
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+}
+.mailP{
+    width: 80%;
+    margin: 30px 0;
+}
+.bg-white{
+    background-color: #fff;
+}
+.ShadowBG{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    background-color: #F3F3F3;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.nameText {
+    margin-left: 130px;
+}
+    /* email-top  */
+    .email-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .email-btn {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .email-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .email-title h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    /* email-body   */
+    .email-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 25px;
+        margin: 20px 0;
+        border-radius: 5px;
+        background: #fff;
+    }
+    .email-img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .email-img p {
+        padding-left: 30px;
+        margin-right: 123px;
+    }
+    .single-text p {
+        margin-right: 48px;
+    }
+    /* ==========================lets css ========================= */
+    .btn-1 button {
+        border: none;
+        background: #6EA505;
+        height: 37px;
+        width: 113%;
+        color: #fff;
+        border-radius: 3px;
+        margin-bottom: 19px;
+        font-weight: 600;
+    }
+    .btn-2 button {
+        margin-left: 35px;
+        border: 2px solid #6EA505;
+        background: transparent;
+        height: 38px;
+        width: 100%;
+        border-radius: 3px;
+        font-weight: 600;
+    }
+    .banner-btn{
+        display: flex;
+    }
+    .header-conent{
+        display: flex;
+        justify-content: right;
+    }
+    .banner-content {
+        width: 50%;
+    }
+    .banner-content h2 {
+        font-size: 45px;
+        font-weight: 700;
+        margin-top: 57px;
+    }
+    .banner-img {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .banner-img img {
+        width: 31%;
+    }
+/* responsive.css */
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+    .footer-nav-toggle-label {
+      display: block;
+    }
+  }
+  
+  /* LG Device :992px. */
+  @media (min-width: 992px) and (max-width: 1200px) {
+  
+  }
+  
+   
+  /* MD Device :768px. */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .border {
+        margin-left: 0;
+    }
+    .navbar-brand.text-light img {
+        width: 200px;
+    }
+    .ShadowBG {
+        height: auto !important;
+    }
+    .button button {
+        margin-bottom: 19px;
+    }
+    .navbar-toggler {
+        border: none !important;
+    }
+    .email-img p {
+        padding-left: 10px;
+        margin-right: 15px;
+    }
+    .single-text p {
+        margin-right: 0;
+    }
+    .email-top {
+        display: block;
+    }
+    .email-btn {
+        display: block;
+        margin-bottom: 30px;
+    }
+  }
+   
+  /* SM Small Device :320px. */
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .navbar-toggler {
+        border: none !important;
+    }
+    .navbar-brand.text-light img {
+        width: 150px;
+    }
+    .border {
+        margin-left: 0;
+    }
+    .ShadowBG {
+        height: auto !important;
+    }
+    .mailP {
+        margin-bottom: 20px;
+    }
+    .section1 {
+        margin-bottom: 30px;
+    }
+    /* */
+    .email-top {
+        display: block;
+    }
+    .email-btn {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .email-btn button {
+        margin-bottom: 20px;
+    }
+    .email-title h3 {
+        font-size: 16px;
+    }
+    .email-body {
+        display: block;
+    }
+    .email-img {
+        margin-bottom: 20px;
+    }
+    .email-img p {
+        padding-left: 0;
+        margin-right: 0;
+    }
+    .single-text p {
+        margin-right: 0;
+    }
+    /* ==================
+              lets
+       =================*/
+    .banner-content {
+        width: 100%;
+    }
+    .banner-btn {
+        display: block;
+        width: 75%;
+    }
+    .btn-2 button {
+        margin-left: 0;
+        width: 126%;
+    }
+    .btn-1 button {
+        width: 126%;
+    }
+  
+    .banner-img {
+        display: none !important;
+    }
+    .navbar-toggler {
+        border: 2px solid #fff;
+    }
+    .border {
+        margin-left: 0;
+    }
+    .banner-content h2 {
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+    table {
+        border: 1px solid transparent;
+        box-shadow: none;
+      }
+      table thead {
+        display: none;
+      }
+      table tbody tr {
+        border-bottom: 45px solid #F8F8F8;
+      }
+      table tbody tr td:first-child {
+        padding-left: 10px;
+      }
+      table tbody tr td:before {
+        content: attr(data-label);
+        float: left;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    tbody tr td:first-child {
+        padding-left: 0px;
+    }
+    table tbody tr td {
+        display: block;
+        text-align: right;
+        font-size: 14px;
+        padding: 10px 10px !important;
+        margin-bottom: 34px;
+    }
+    .table_img{
+        display: none;
+    }
+    tr.table_row {
+        background: white;
+        border-bottom: 25px solid #f3f3f3;
+    }
+    tr.table_row td {
+        border-bottom: none;
+    }
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+/*================================================================================================= bipul's css  */
+
+
+
+
+
+
+
+
+
+
+   
+  }
+  
